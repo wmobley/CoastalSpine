@@ -1,0 +1,1242 @@
+element.style{
+    overflow: auto;
+    /*	overflow-y: hidden;*/
+    background-color: #454545;
+}
+/*Tau Charts*/
+.graphical-report__legend__reset{
+    right: 18% !important;
+}
+.graphical-report__layout__sidebar-right{
+    display: inline;
+    align: right;
+    max-width : 37%;
+    overflow: auto !important;
+    overflow-wrap: break-word !important;
+}
+.graphical-report__legend__wrap{
+    width:95%;
+}
+.graphical-report__legend{
+    padding: 0;
+    overflow: hidden;
+}
+
+.card .nav-item {
+    background-color: darkgrey;
+}
+
+#nav-local-directions, #nav-national-directions {
+    color: white;
+}
+
+@media (min-width: 1050px) {
+    #smBreak {
+        display:none;
+    }
+    #nav-tab {
+        margin-bottom: -26px;
+    }
+    .sidebar{
+        min-height:760px;
+    }
+    .map_card{
+        height: calc(100vh - 141px);
+        min-height:614px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom: 63px;
+    }
+    #viewDiv_US{
+        padding-bottom: 58px;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:120px;
+        left:0;
+    }
+    #float_legend_US{
+        width:185px;
+        top:120px;
+        left:-3px;
+    }
+    #spacer-div{
+        height:calc(100% - 616px);
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:90px;
+        left:145px;
+        height:auto;
+        width:28vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    #reportContainer {
+        position:absolute;
+        bottom:10px;
+        left:20px;
+        width:220px;
+        height:40px;
+        font-size:9pt;
+        font-weight:normal;
+    }
+}
+
+@media (max-width: 1049px) {
+    #smBreak {
+        display:block;
+    }
+    #nav-tab {
+        margin-bottom: -56px;
+    }
+    .sidebar{
+        min-height:800px;
+    }
+    .map_card{
+        height: calc(100vh - 171px);
+        min-height:614px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom: 63px;
+    }
+    #viewDiv_US{
+        padding-bottom: 58px;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:120px;
+        left:0;
+    }
+    #float_legend_US{
+        width:185px;
+        top:120px;
+        left:-3px;
+    }
+    #spacer-div{
+        height:calc(100% - 616px);
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:90px;
+        left:145px;
+        height:auto;
+        width:25vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    #reportContainer {
+        position:absolute;
+        bottom:10px;
+        left:20px;
+        width:220px;
+        height:40px;
+        font-size:9pt;
+        font-weight:normal;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-mobile-menu {
+        display:none !important;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:130px;
+        left:0;
+    }
+    #float_legend_US{
+        width:185px;
+        top:120px;
+        left:-3px;
+    }
+    .map_card{
+        height: calc(100vh - 171px);
+        min-height:614px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom: 63px;
+    }
+    #viewDiv_US{
+        padding-bottom: 58px;
+    }
+    #spacer-div{
+        height:calc(100% - 616px);
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:90px;
+        left:145px;
+        height:auto;
+        width:35vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    #reportContainer {
+        position:absolute;
+        bottom:10px;
+        left:20px;
+        width:220px;
+        height:40px;
+        font-size:9pt;
+        font-weight:normal;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-mobile-menu {
+        display:none !important;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:150px;
+        left:0;
+        -webkit-transform:scale(0.65);
+        -moz-transform:scale(0.65);
+        -ms-transform:scale(0.65);
+        transform:scale(0.65);
+    }
+    #float_legend_US{
+        width:185px;
+        top:100px;
+        left:-3px;
+    }
+    .map_card{
+        height: 60vh;
+        min-height:550px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom: 103px;
+    }
+    #viewDiv_US{
+        padding-bottom: 98px;/*118px;*/
+    }
+    #spacer-div{
+        height:0;
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:120px;
+        left:145px;
+        height:auto;
+        width:60vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    #reportContainer {
+        position:absolute;
+        bottom:20px;
+        left:20px;
+        width:100%;
+        text-align: center;
+        height:40px;
+        font-size:9pt;
+        font-weight:normal;
+    }
+    #reportTxtBreak {
+        display:none;
+    }
+}
+
+@media (max-width: 534px) {
+    .nav-mobile-menu {
+        display:none !important;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:135px;
+        left:0;
+        -webkit-transform:scale(0.65);
+        -moz-transform:scale(0.65);
+        -ms-transform:scale(0.65);
+        transform:scale(0.65);
+    }
+    #float_legend_US{
+        width:185px;
+        top:100px;
+        left:-3px;
+    }
+    .map_card{
+        height: 60vh;
+        min-height:550px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom: 103px;
+    }
+    #viewDiv_US{
+        padding-bottom: 98px; /*118px;*/
+    }
+    #spacer-div{
+        height:0;
+    }
+    #nav-local-tab, #nav-national-tab {
+        display: none;
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:120px;
+        left:145px;
+        height:auto;
+        width:50vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    #reportContainer {
+        position:absolute;
+        bottom:20px;
+        left:20px;
+        width:100%;
+        text-align: center;
+        height:40px;
+        font-size:9pt;
+        font-weight:normal;
+    }
+    #reportTxtBreak {
+        display:none;
+    }
+}
+
+@media (max-width: 420px) {
+    .nav-mobile-menu {
+        display:none !important;
+    }
+    #float_legend, #float_legend_US{
+        opacity:0.9;
+        width:165px;
+        height:auto;
+        margin-left:-6px;
+        position:absolute;
+        top:135px;
+        left:0;
+        -webkit-transform:scale(0.5);
+        -moz-transform:scale(0.5);
+        -ms-transform:scale(0.5);
+        transform:scale(0.5);
+    }
+    #float_legend_US{
+        width:185px;
+        top:100px;
+        left:-3px;
+    }
+    .map_card{
+        height: 60vh;
+        min-height:550px;
+    }
+    #viewDiv_GalvestonBay,#viewDiv_US{
+        position: absolute;
+        height: 100%;
+        min-width: 100%;
+        max-width : 100%;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom: 113px;
+    }
+    #viewDiv_US{
+        padding-bottom: 108px;/*128px;*/
+    }
+    #spacer-div{
+        height:0;
+    }
+    #nav-local-tab, #nav-national-tab {
+        display: none;
+    }
+    .navbar-toggler-right{
+        position:absolute;
+        top:50px;
+        right:5px;
+    }
+    /*#USactiveScenariosContainer{
+        opacity:0.9;
+        position:absolute;
+        top:120px;
+        left:145px;
+        height:auto;
+        width:50vw;
+        background-color:white;
+        padding:5px;
+    }*/
+    .timeslidecontainer
+    {
+        width: calc(75% - 50px) !important;
+    }
+    #reportContainer {
+        position:absolute;
+        bottom:20px;
+        left:20px;
+        width:100%;
+        text-align: center;
+        height:40px;
+        font-size:8pt;
+        font-weight:normal;
+    }
+    #reportTxtBreak {
+        display:none;
+    }
+    .copyright {
+        font-size:8pt !important;
+        bottom:0;
+    }
+}
+
+.inundationLegendStyle{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    transform:scale(1.25);
+    padding-top:25px;
+    margin-bottom:18px;
+}
+
+.inundationLegendStyle .esri-legend__layer-cell {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-tabs > a.active {
+    background-color: rgb(247,247,248) !important;
+    border-bottom-color: rgb(247,247,248) !important;
+}
+
+.main-panel {
+    padding-right:0px;
+    overflow:hidden;
+    height:100%;
+}
+
+.content{
+    /*height:100%*/
+}
+.card-body {
+    overflow:hidden;
+}
+.tab-content {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+body {
+    height:100%;
+}
+
+.wrapper {
+    height:100%;
+}
+
+#mainFooter{
+    height:8vh;
+}
+
+#nav-tabContent, #nav-local, #mapContainer, .map {
+    height: 100%
+}
+
+#nav-local-directions-tab, #nav-national-preview-tab, #nav-national-directions-tab, #nav-local-preview-tab {
+    font-size: 10pt;
+    padding: 5px;
+    line-height: 1;
+}
+
+#mapCol{
+    /*height:100vh;*/
+}
+
+#National-Small, #Local-Small{
+    /*height:10vh;*/
+    height:250px !important;
+    background-color: rgb(119,119,119);
+}
+
+.small-map-header {
+    background-color: rgb(119, 119, 119) !important;
+}
+
+.small-map-title {
+    color: #e1e1e1 !important;
+}
+
+#damage-card, #inundation-card-inner, #US_damage-card{
+    /*height:50vh;
+    min-height:360px;*/
+    height:360px;
+}
+#creditsLink {
+    padding:0px;
+    color:lightgrey;
+    font-size:10pt;
+    text-align:center;
+    margin-left:75px;
+    vertical-align: top;
+}
+#creditsContainer {
+    position:absolute;
+    bottom:0px;
+    left:20px;
+    width:200px;
+    height:40px;
+}
+
+/*#legend_card, #US-legend_card{
+    height:35%;
+}*/
+#nationalButton{
+    /*background:#87cb16;*/
+    opacity: 0.3;
+
+}
+/*#homeContainer{
+    padding-top: 16px;
+    padding-left: 65px;
+}*/
+/*
+.content{
+	display: grid;
+
+}
+.card{
+	height:45%;
+}
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	height: 50%;
+}
+#panel {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 20%;
+	max-width: 100px;
+	overflow-y: hidden;
+	backgroun: gray;
+	margin-right: 94%;
+	border: thin solid #D3D3D3;
+	background-color: #333333;
+	display: inline-block;
+}
+*/
+
+.btn-minus, .btn-plus {
+    vertical-align: top;
+    cursor: pointer; /* Cursor on hover */
+    opacity: 0.85; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.btn-minus:hover, .btn-plus:hover
+{
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.timeslidecontainer
+{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: calc(95% - 100px);
+    display: inline-flex;
+    left: 250px;
+    height: 29px; /* Specified height */
+    background: #909090; /* Grey background */
+    cursor: pointer; /* Cursor on hover */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.timeslidecontainer:hover
+{
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.timeslidecontainer::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 29px; /* Slider handle height */
+    background: #f6f6f6; /* Light gray background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.timeslidecontainer::-moz-range-thumb {
+    width: 20px; /* Set a specific slider handle width */
+    height: 29px; /* Slider handle height */
+    background: #f6f6f6; /* Light gray background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.SliderMinLabel
+{
+    padding-top: 5px;
+    color: #f6f6f6 !important;
+    text-shadow:
+            -1px -1px 1px rgba(36, 36, 36, 0.3),
+            0   -1px 1px rgba(36, 36, 36, 0.3),
+            1px -1px 1px rgba(36, 36, 36, 0.3),
+            1px  0   1px rgba(36, 36, 36, 0.3),
+            1px  1px 1px rgba(36, 36, 36, 0.3),
+            0    1px 1px rgba(36, 36, 36, 0.3),
+            -1px  1px 1px rgba(36, 36, 36, 0.3),
+            -1px  0   1px rgba(36, 36, 36, 0.3);
+}
+.SliderMaxLabel
+{
+    padding-top: 5px;
+    color: #f6f6f6 !important;
+    text-shadow:
+            -1px -1px 1px rgba(36, 36, 36, 0.3),
+            0   -1px 1px rgba(36, 36, 36, 0.3),
+            1px -1px 1px rgba(36, 36, 36, 0.3),
+            1px  0   1px rgba(36, 36, 36, 0.3),
+            1px  1px 1px rgba(36, 36, 36, 0.3),
+            0    1px 1px rgba(36, 36, 36, 0.3),
+            -1px  1px 1px rgba(36, 36, 36, 0.3),
+            -1px  0   1px rgba(36, 36, 36, 0.3);
+}
+
+.datalist
+{
+    width: 85%;
+    display: flex;
+    left: 250px;
+    text-align: center;
+    text-shadow:
+            -1px -1px 1px rgba(36, 36, 36, 0.3),
+            0   -1px 1px rgba(36, 36, 36, 0.3),
+            1px -1px 1px rgba(36, 36, 36, 0.3),
+            1px  0   1px rgba(36, 36, 36, 0.3),
+            1px  1px 1px rgba(36, 36, 36, 0.3),
+            0    1px 1px rgba(36, 36, 36, 0.3),
+            -1px  1px 1px rgba(36, 36, 36, 0.3),
+            -1px  0   1px rgba(36, 36, 36, 0.3);
+}
+
+#bottomPanel {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 2.5em;
+    text-align: center;
+}
+
+#sliderDisplay {
+    width: 95%;
+    margin: auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+
+.slider:hover {
+    opacity: 1;
+
+}
+/*::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75px;
+    height: 75px;
+    border: 0;
+    border-radius: 50%;*/
+    /*background: #500000;*/
+    /*background: url('images/Blue_sea_wave.png');
+    background-size:     cover;
+    cursor: pointer;*/
+    /*background-repeat: no-repeat;
+
+}*/
+/*::-ms-track {*/
+    /*color: red;*/
+/*}*/
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75px;
+    height: 75px;
+    border: 0;
+    border-radius: 50%;
+    /*background: #500000;*/
+    background: url('images/Blue_sea_wave.png');
+    background-size:     cover;
+    cursor: pointer;
+    /*background-repeat: no-repeat;*/
+
+}
+
+.slider::-moz-range-thumb {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    /*background: #500000;*/
+    background: url('images/Blue_sea_wave.png');
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+
+}
+.slider::-ms-thumb {
+
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    border-color: #7f7f7f;
+    background: #e9e9e9;
+    /*background: url('images/Blue_sea_wave.png');*/
+    /*background-size:     cover;*/
+    cursor: pointer;
+    /*background-repeat: no-repeat;*/
+
+}
+::-ms-fill-lower {
+    background: #006ca5;
+}
+::-ms-fill-upper {
+    background: #add3ed;
+}
+
+.onoffswitch {
+
+    overflow: hidden;
+    left: 10%;
+    width: 90px;
+    float:right;
+    padding-left: 3%;
+    background-color: #34A7C1;
+}
+
+
+.Inundationonoffswitch {
+    position: relative;
+    overflow: hidden;
+    left: 5%;
+    width: 90px;
+    opacity: 1;
+}
+
+/*#Inundationmyonoffswitch {
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+	width:30px;
+	height: 20%;
+	max-height: 60px;
+	max-resolution: 60px;
+
+	background:#111111;
+	border: 1px solid #111111 ;
+}*/
+/*#Damagemyonoffswitch {
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+	width:30px;
+	height: 20%;
+	max-height: 60px;
+	max-resolution: 60px;
+	background:#111111;
+	border: 1px solid #111111 ;
+}*/
+#SpineMyOnOffSwitch {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+    width:30px;
+    height: 20%;
+    max-height: 60px;
+    max-resolution: 60px;
+    /*
+        background:#111111;
+        border: 1px solid #111111 ;
+    */
+
+}
+#SLRMyOnOffSwitch {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+    width:30px;
+    height: 20%;
+    max-height: 60px;
+    max-resolution: 60px;
+    transition: height 1s, width 1s, padding 1s, visibility 1s, opacity 0.5s ease-out;
+    /*
+
+        background:#111111;
+        border: 1px solid #111111 ;
+    */
+
+}
+#SLRMyOnOffSwitchText{
+    transition: height 1s, width 1s, padding 1s, visibility 1s, opacity 0.5s ease-out;
+}
+#SLRMyOnOffSwitchContainer{
+    width: 0;
+    height: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+#SLRMyOnOffSwitchContainer.shown{
+    width: 260px;
+    height: 63px;
+    margin-bottom: 10px;
+    overflow: visible;
+}
+#range-container{
+    display:none;
+}
+#YearMyOnOffSwitch {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+    width:30px;
+    height: 20%;
+    max-height: 60px;
+    max-resolution: 60px;
+    /*
+        background:#111111;
+        border: 1px solid #111111 ;
+    */
+}
+#Year2080MyOnOffSwitch {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-content: center;
+    width:30px;
+    height: 20%;
+    max-height: 60px;
+    max-resolution: 60px;
+    /*
+        background:#111111;
+        border: 1px solid #111111 ;
+    */
+}
+
+/*
+.span {
+		width:250%;
+
+}
+*/
+
+#US_Chart_Header{
+	margin-bottom:10px;
+}
+
+#US_chart_container{
+    /*border: solid 1px gray;*/
+    height:100%;
+    /*max-width: 500px;*/
+    width: 100%;
+    /*max-height: 500px;*/
+    margin: 0;
+    padding: 0;
+
+}
+#US_chart_container > svg{
+    display:block;
+}
+#gauge > svg {
+    display:block;
+    width:100%;
+    /*height:auto;*/
+    /*margin:auto;*/
+    padding-left:5%;
+    /*padding-bottom:10%;*/
+    overflow: visible;
+}
+#inundation_gauge_container > svg {
+    display:block;
+    width:75%;
+    /*width:14vw;*/
+    height:auto;
+    max-height:188px;
+    margin:0 !important;
+    padding-left:15%;
+    padding-top:10%;
+    overflow: visible;
+}
+.chart-body{
+    width:100%;
+    height: 100%;
+    /*horiz-align: center;
+    vert-align: middle;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;*/
+    margin: 0;
+    padding: 0;
+}
+#gauge,#inundation_gauge_container,#inundation_gauge,.ct-chart {
+    width: 100%;
+    height: 100%;
+    /*text-align: center;
+    horiz-align: center;
+    vert-align: middle;
+    align-content: center;
+    align-items: center;
+    align-self: center;*/
+    margin: 0;
+    padding: 0;
+}
+#gauge {
+    display: block;
+    max-height: 188px;
+    max-width: 244px;
+    margin: auto;
+}
+
+#stormHeader {
+    font-size:9pt;
+    font-weight:bold;
+    margin-left:30px;
+    display:inline-block;
+}
+#demo {
+    margin-left:30px;
+    display:inline-block;
+}
+#Little_US, #Little_Galveston{
+    position: absolute;
+    height: 74%;
+    min-width: 100%;
+    max-width : 100%;
+
+    /*	margin-left: 9%;*/
+}
+
+#homeContainer, #us_homeContainer{
+    padding-top: 16px;
+    padding-left: 65px;
+}
+
+.prjContainer {
+	position: absolute;
+	margin-top: -15px;
+	right: 20px;
+    z-index: 99;
+    font-size: 8pt;
+    font-weight: 800;
+    -webkit-text-stroke:1px rgba(10, 10, 10, 0.5);
+  	-webkit-text-fill-color: rgba(255, 255, 255, 1);
+  	color:rgba(255, 255, 255, 0.5);
+  	letter-spacing:1px;
+    /*color: darkgray;
+    background: rgba(75, 75, 75, 0.5);
+    --stroke-color:rgba(245, 245, 245, 0.25);
+  	--stroke-width:1px;
+    text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color);*/
+}
+
+.esri-scale-bar {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+/*
+*/
+/*
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 45%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent  transparent;
+}
+*/
+.bounding {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    /*    padding: 15px;*/
+
+}
+
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    /*    background-color: #555;*/
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 100%;
+    /*    margin-left: -60px;*/
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.tooltip {
+    visibility: visible;
+    position: relative;
+    display: inline-block;
+    /*    border-bottom: 1px dotted black;*/
+    opacity: 1 !important;
+
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    font-weight: bold;
+}
+.tooltip .tooltiptext_bottom {
+    visibility: visible;
+    width: 120px;
+    /*    background-color: #555;*/
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 20%;
+    /*    margin-left: -60px;*/
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext_bottom {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.columns{
+    height: 200px;
+    overflow-y:scroll;
+}
+
+
+/*@media screen and (min-width: 1201px){
+    .columns{
+        -moz-column-count:3;
+        -webkit-column-count:3;
+        column-count:3;
+        width: 575px;
+        height:500px;
+    }
+} */
+
+.shrink50{
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);
+}
+
+.shrink25{
+    -webkit-transform:scale(0.75);
+    -moz-transform:scale(0.75);
+    -ms-transform:scale(0.75);
+    transform:scale(0.75);
+}
+
+#sub-legend {
+    border-top: 1px solid lightgrey;
+    display:none;
+}
+
+#storm-radio {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.btn-custom {
+    background-color: darkgrey;
+    border-color: lightgrey;
+    color: lightgray;
+}
+
+.btn-custom.active {
+    background-color: black;
+    border-color: darkgrey;
+    color: white;
+}
+
+#depthCalcFilteredTxt {
+    display: none;
+}
+
+.footer_subtitle {
+    font-weight: normal;
+    line-height: 3px !important;
+    size: 8pt!important;
+}
+
+.esri-legend__layer-caption{
+    display:none !important;
+}
+
+#MinImpactsTxt {
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    size: 16pt;
+    color: rgba(75, 75, 75, 1);
+    text-shadow:
+            -1px -1px 0 #FFF,
+            0   -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            1px  0   0 #FFF,
+            1px  1px 0 #FFF,
+            0    1px 0 #FFF,
+            -1px  1px 0 #FFF,
+            -1px  0   0 #FFF;
+}
+
+.directionsOL {
+    font-size: 9pt;
+}
+
+.scrollDiv {
+    overflow-y: scroll;
+}
+
+.darkened {
+    color: darkturquoise;
+}
+
+.blueSlateLink {
+    color: darkblue;
+}
+.super-title {
+    font-size: 10.5pt;
+    color: black;
+    text-decoration-line: underline;
+}
+.navbar-brand {
+	color: black !important;
+}
+
+#usHomeSwitch, #HomeSwitch, #btnBack, #btnForward, #timeslider {
+    border-radius: 0 !important;
+    -webkit-appearance: none;
+}
+
+#btnBack, #btnForward {
+    height: 29px !important;
+    width: 20px !important;
+    border: none;
+    background-color: darkgrey;
+    color: white;
+    padding: 0;
+}
